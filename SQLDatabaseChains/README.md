@@ -6,11 +6,14 @@ This repository contains an experimental implementation using the `langchain` li
 
 ### Prerequisites
 
-Before running the code, make sure you have the required Python packages installed. You can install them using:
+Before running the code, make sure you have connected to Google Cloud:
+1. Create a service account.
+2. Download the JSON file that contains the credentials of the service account.
+3. You can set the environment variable GOOGLE_APPLICATION_CREDENTIALS and assign the path of the JSON file.
 
-```bash
-pip install langchain google-cloud-aiplatform
-```
+For more please refer below links:
+https://cloud.google.com/docs/authentication/application-default-credentials#GAC
+https://googleapis.dev/python/google-auth/latest/reference/google.auth.html#module-google.auth
 
 ### Setting Up Database
 
